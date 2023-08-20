@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #081b20;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: rgb(18, 93, 93);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: none;
+    color: blanchedalmond;    
+}
+
+.header{
+    transition: .3s;
+}
+
+.header a:hover {
+    color: plum;
+}
+
+.navbar a {
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 35px;
+    font-style: normal;
+    transition: .1s;
+    color: blanchedalmond;
+}
+
+.navbar a:hover {
+    color: plum;
+}
+
+.home {
+height: 100vh;
+   display: flex; 
+   align-items: center;
+   padding: 10%;
+   color:blanchedalmond
+}
+
+.home-content {
+    padding-top: 2cm;
+    max-width: 600px;
+}
+.home-content h1{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.home-content h3{
+    color: rgb(127, 225, 255);
+    font-style: italic;
+    text-decoration: none;
+    padding-bottom: 1px;
+}
+
+.home-content p{
+    padding-top: 5%;
+    color: blanchedalmond;
+    font-weight: 500;
+
+}
+
+img{
+    position: absolute;
+    left: 20cm;
+    bottom: 3cm
+}
+
+.home-content h4{
+    color: rgb(127, 225, 255);
+    padding-top: 25px;
+    font-weight: 100;
+    font-style: italic;
+    text-decoration: none;
+}
